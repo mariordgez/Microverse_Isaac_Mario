@@ -1,0 +1,37 @@
+@media screen and (min-width: 760px)
+ {
+#navbar{
+width: 25%;
+       }
+#main-doc{
+    width: 75%;
+}
+body{
+display:flex;
+
+    }
+}
+#navbar{
+    background-color:blue;
+    color: white;
+    padding: 10px;
+}
+header{
+    font-weight: 700;
+    font-size: large;
+  padding-left: 20px;
+
+}
+#navbar ul{
+    list-style-type: circle;
+
+}
+li{padding-top: 20px;
+padding-bottom: 20px;
+border-top: double;
+border-bottom: double;
+}
+a{text-decoration: none;
+color:white;}
+body{font-family: Arial, Helvetica, sans-serif;}
+#main-doc{background-color: rgb(207, 203, 203);}
